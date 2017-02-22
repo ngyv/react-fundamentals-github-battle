@@ -4,6 +4,11 @@ var styles = {
 	},
 	space: {
 		marginTop: '25px'
+	},
+	maxWidth: function(width) {
+		return {
+			maxWidth: width + 'px'
+		}
 	}
 };
 
